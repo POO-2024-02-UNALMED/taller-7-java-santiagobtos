@@ -44,7 +44,7 @@ public class Libro extends Escrito{
         this.interpretacion=inter;
     }
     //gets
-    public String getco_autor(){
+    public String getCo_autor(){
         return this.co_autor;
     }
     public String getEditorial(){
