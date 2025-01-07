@@ -20,8 +20,17 @@ public class Alfabeto extends Pictograma {
     }
    
     public String toString() {
-        String r = super.getOrigen() + "\n";
-        r += String.valueOf(this.letras.length);
-        return r;
+       
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < letras.length; i++) {
+            sb.append(letras[i]); 
+            if (i < letras.length - 1) {
+                sb.append(", "); 
+            }
+        }
+
+        return sb.toString(); 
     }
 }
+
