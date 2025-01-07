@@ -1,5 +1,8 @@
 package comunicacion;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Tesis extends Escrito{
     private String idea;
     private String[] argumentos ;
@@ -40,7 +43,7 @@ public class Tesis extends Escrito{
     public String getIdea(){
         return this.idea;
     }
-    public int getArgumentos(){
+    public ArrayList getArgumentos(){
         return this.argumentos;
     }
     public String getConclusion(){

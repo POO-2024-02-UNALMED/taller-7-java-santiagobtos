@@ -27,7 +27,7 @@ public class Fabula extends Escrito{
     public String getEnsenanza(){
         return this.ensenanzas;
     }
-    public string getInterpretacion(){
+    public String getInterpretacion(){
         return this.interpretacion;
     }
 }
