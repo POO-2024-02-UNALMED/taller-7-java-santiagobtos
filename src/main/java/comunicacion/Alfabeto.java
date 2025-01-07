@@ -21,8 +21,7 @@ public class Alfabeto extends Pictograma {
    
     public String toString() {
         String r = super.getOrigen() + "\n";
-        r += String.valueOf(this.letras.length) + "\n";
-        r+= this.interpretacion;
+        r += String.valueOf(this.letras.length);
         return r;
     }
 }
